@@ -1,6 +1,7 @@
 # HP-ELITEDESK-800-G2-DM-MINI-DM-HACKINTOSH-35W
 
-BIOS Setup
+# BIOS Setup
+
 I recommend you to download the latest BIOS (2023) from the same BIOS Network utility, easy and automated.
 
 TPM Embedded Security - Set to hidden
