@@ -1,8 +1,8 @@
 # HP-ELITEDESK-800-G2-DM-MINI-DM-HACKINTOSH-35W
 
- 
 BIOS Setup
-I recommend you visit the HP website and install the latest version of the BIOS. The settings I used are;
+
+I recommend you to download the latest BIOS from the same BIOS Network utility, easy and automated.
 
 TPM Embedded Security - Set to hidden
 
