@@ -2,7 +2,7 @@
 
 # BIOS Setup
 
-- I recommend you to download the latest BIOS (2023) from the same BIOS Network utility, easy and automated.
+- I recommend you to upgrade to the latest BIOS (2023) from the same BIOS HP Network utility, easy and automated.
 - TPM Embedded Security - Set to hidden
 - Intel Software Guard Extension (SGX) - Disabled
 - In boot options - USB Storage boot is enabled but PXE, Fast and CD-ROM boot are disabled. It's down to you and your drives for the boot order.
@@ -18,3 +18,7 @@
 # Thanks to:
 
 - https://github.com/jparrack/HP-Elitedesk-800-G2-Mini-Hackintosh
+
+# What works?
+
+- Everything
