@@ -13,7 +13,6 @@
 - Optional ROM policy - All legacy
 - Power management options - enable all apart from unqiue sleep state blink rates
 - Remote managaement options - disable all options here
-- 100% Super performant hardware and astonishing compatbility
 
 # Thanks to:
 
@@ -22,3 +21,4 @@
 # What works?
 
 - Everything
+- 100% Super performant hardware and astonishing compatbility
