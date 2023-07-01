@@ -1448,13 +1448,13 @@
 			<key>MinimumAssistGain</key>
 			<integer>-30</integer>
 			<key>MinimumAudibleGain</key>
-			<integer>-128</integer>
+			<integer>-55</integer>
 			<key>PlayChime</key>
 			<string>Enabled</string>
 			<key>ResetTrafficClass</key>
 			<false/>
 			<key>SetupDelay</key>
-			<integer>0</integer>
+			<integer>2</integer>
 		</dict>
 		<key>ConnectDrivers</key>
 		<true/>
@@ -1464,7 +1464,7 @@
 				<key>Arguments</key>
 				<string></string>
 				<key>Comment</key>
-				<string></string>
+				<string>AudioDxe.efi</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
