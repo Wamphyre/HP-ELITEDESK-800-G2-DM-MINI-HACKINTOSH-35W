@@ -1,5 +1,3 @@
-# HP-ELITEDESK-800-G2-DM-MINI-HACKINTOSH-35W
-
 # Optimized for OpenCore 0.9.4 and macOS Monterey
 
 # BIOS Setup
