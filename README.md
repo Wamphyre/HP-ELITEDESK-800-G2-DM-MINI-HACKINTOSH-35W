@@ -12,7 +12,7 @@
 - Port options - enable them all
 - Optional ROM policy - All legacy
 - Power management options - enable all apart from unqiue sleep state blink rates
-- Remote managaement options - disable all options here
+- Remote management options - disable all options here
 
 # Thanks to:
 
