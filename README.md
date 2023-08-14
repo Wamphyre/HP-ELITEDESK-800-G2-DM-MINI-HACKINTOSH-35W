@@ -1,5 +1,7 @@
 # Optimized for OpenCore 0.9.4 and macOS Monterey
 
+- If you want to install Ventura, please just download Ventura-Stable-v1.0 from the Releases section.
+
 # BIOS Setup
 
 - I recommend you to upgrade to the latest BIOS (2023) from the same BIOS HP Network utility, easy and automated.
