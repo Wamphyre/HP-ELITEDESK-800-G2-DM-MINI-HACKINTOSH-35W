@@ -25,3 +25,6 @@
 
 - Everything
 - 100% Super performant hardware and astonishing compatbility
+
+## Don't forget to buy me a beer!
+https://ko-fi.com/wamphyre94078
