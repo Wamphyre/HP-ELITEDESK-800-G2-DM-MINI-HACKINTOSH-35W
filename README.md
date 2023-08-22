@@ -1,6 +1,6 @@
 # Optimized for OpenCore 0.9.4 and macOS Monterey
 
-- If you want to install Ventura, please just download Ventura-Stable-v1.5 from the Releases section.
+- If you want to install Ventura, please just download Ventura-Stable-v1.5.1 from the Releases section.
 
 # BIOS Setup
 
