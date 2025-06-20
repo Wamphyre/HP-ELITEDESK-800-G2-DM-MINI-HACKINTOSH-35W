@@ -1,10 +1,8 @@
-# Optimized for OpenCore 1.0.0 and macOS Monterey
-
-- If you want to install Ventura, please just download Ventura-Stable-v2.0 from the Releases section.
+# Optimized for OpenCore 1.0.4 and macOS Monterey
 
 # BIOS Setup
 
-- I recommend you to upgrade to the latest BIOS (2023) from the same BIOS HP Network utility, easy and automated.
+- I recommend you to upgrade to the latest BIOS (2024) from the same BIOS HP Network utility, easy and automated.
 - TPM Embedded Security - Set to hidden
 - Intel Software Guard Extension (SGX) - Disabled
 - In boot options - USB Storage boot is enabled but PXE, Fast and CD-ROM boot are disabled. It's down to you and your drives for the boot order.
