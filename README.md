@@ -8,7 +8,7 @@
 ## 📋 Hardware Specifications
 | Component        | Model                           |
 |------------------|---------------------------------|
-| CPU              | Intel Skylake (i5-6500T/i7-6700T) |
+| CPU              | Intel Skylake (i5-6500T) |
 | Graphics         | Intel HD Graphics 530          |
 | Audio            | Realtek ALC221 (layout-id 88)   |
 | Ethernet         | Intel I219-LM                  |
