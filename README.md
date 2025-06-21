@@ -46,10 +46,10 @@
 ## ✅ What's Working
 - **All major components**:
   - Intel HD 530 Graphics (Full QE/CI acceleration)
-  - ALC221 Audio (Internal speakers, microphone, HDMI output)
+  - ALC221 Audio (Internal speakers, microphone, DP output)
   - Intel I219-LM Ethernet
   - Intel WiFi/Bluetooth (Handoff/AirDrop)
-  - USB 3.0/2.0 (Complete port mapping)
+  - USB 3.0 (Complete port mapping)
   - Power Management (Sleep/Wake, CPU PM)
   - iServices (iMessage, FaceTime)
 
