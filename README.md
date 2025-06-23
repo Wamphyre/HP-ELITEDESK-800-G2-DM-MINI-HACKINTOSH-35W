@@ -32,7 +32,6 @@
 | | Secure Boot | **Disabled** |
 | | All Other Options | **Unchecked** |
 | **System Options** | Turbo-boost | **Enabled** |
-| | Hyperthreading | **Enabled** |
 | | Multi-processor | **Enabled** |
 | | Virtualization Technology (VTx) | **Enabled** |
 | | Virtualization Technology for Directed I/O (VTd) | **Disabled** |
@@ -43,7 +42,7 @@
 | **Built-in Device Options** | Embedded LAN Controller | **Enabled** |
 | | Wake on LAN | **Disabled** |
 | | Dust Filter | **Disabled** |
-| | Video Memory Size | **64MB** |
+| | Video Memory Size | **512MB** |
 | | M.2 USB / Bluetooth | **Enabled** |
 | | Audio Device | **Enabled** |
 | | Internal Speakers | **Enabled** |
@@ -91,7 +90,7 @@ RTC IRQ 8 Patch            # Fixes random wake issues
 <key>AAPL,ig-platform-id</key>
 <data>AAASGQ==</data>          # 00001619 (headless mode)
 <key>framebuffer-con1-alldata</key>
-<data>AAQAAAQAAAACAAAA</data>  # HDMI configuration
+<data>AAQAAAQAAAACAAAA</data>  # DP configuration
 <key>enable-gpu-idle</key>
 <data>AQ==</data>              # Enable GPU idle states
 ```
@@ -117,11 +116,12 @@ RTC IRQ 8 Patch            # Fixes random wake issues
 
 ### 4. Boot Arguments
 ```bash
--v alcid=88 -igfxidle -igfxnohdmi -igfxrpsc=0 -igfxmpc=0 gfxrst=1
+alcid=88 -igfxidle -igfxnohdmi -igfxrpsc=0 -igfxmpc=0 gfxrst=1 rtcfx_exclude=34-37,58-59,5A-5B,80-FF
 ```
 - `gfxrst=1`: Fixes graphics artifacts on wake
 - `-igfxidle`: Enables low-power GPU states
 - `alcid=88`: Forces audio layout for ALC221
+- `rtcfx_exclude=34-37,58-59,5A-5B,80-FF`: Solves POST Error related to real-time clock
 
 ## ⚡️ Power Management
 - **CPUFriend**: Custom profile for low-power CPUs
