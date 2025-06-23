@@ -32,7 +32,6 @@
 | | Secure Boot | **Disabled** |
 | | All Other Options | **Unchecked** |
 | **System Options** | Turbo-boost | **Enabled** |
-| | Hyperthreading | **Enabled** |
 | | Multi-processor | **Enabled** |
 | | Virtualization Technology (VTx) | **Enabled** |
 | | Virtualization Technology for Directed I/O (VTd) | **Disabled** |
@@ -43,7 +42,7 @@
 | **Built-in Device Options** | Embedded LAN Controller | **Enabled** |
 | | Wake on LAN | **Disabled** |
 | | Dust Filter | **Disabled** |
-| | Video Memory Size | **64MB** |
+| | Video Memory Size | **512MB** |
 | | M.2 USB / Bluetooth | **Enabled** |
 | | Audio Device | **Enabled** |
 | | Internal Speakers | **Enabled** |
