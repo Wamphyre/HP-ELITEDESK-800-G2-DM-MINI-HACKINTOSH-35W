@@ -21,27 +21,44 @@
 
 | BIOS Section | Setting | Configuration |
 |--------------|---------|---------------|
-| **Security** | TPM Embedded Security | **Hidden** |
-| | Intel Software Guard Extension (SGX) | **Disabled** |
-| | Secure Boot Configuration | Legacy Support: **Enabled**<br>Secure Boot: **Disabled** |
-| **Boot Options** | USB Storage Boot | **Enabled** |
-| | PXE Boot | **Disabled** |
+| **Boot Options** | Startup Delay | **5** |
 | | Fast Boot | **Disabled** |
 | | CD-ROM Boot | **Disabled** |
+| | USB Storage Boot | **Enabled** |
+| | Network (PXE) Boot | **Disabled** |
+| | After Power Loss | **Power Off** |
+| | UEFI & Legacy Boot Order | **User Preference** |
+| **Secure Boot Configuration** | Legacy Support | **Enabled** |
+| | Secure Boot | **Disabled** |
+| | All Other Options | **Unchecked** |
 | **System Options** | Turbo-boost | **Enabled** |
+| | Hyperthreading | **Enabled** |
 | | Multi-processor | **Enabled** |
-| | Virtualization Technology (VT-x) | **Enabled** |
+| | Virtualization Technology (VTx) | **Enabled** |
+| | Virtualization Technology for Directed I/O (VTd) | **Disabled** |
+| | M.2 WLAN/BT | **Enabled** |
 | | M.2 SSD | **Enabled** |
 | | Allow PCIe/PCI SERR# Interrupt | **Enabled** |
-| **Built-in Devices** | Embedded LAN Controller | **Enabled** |
+| | Power Button Override | **4 sec** |
+| **Built-in Device Options** | Embedded LAN Controller | **Enabled** |
+| | Wake on LAN | **Disabled** |
+| | Dust Filter | **Disabled** |
+| | Video Memory Size | **64MB** |
+| | M.2 USB / Bluetooth | **Enabled** |
 | | Audio Device | **Enabled** |
 | | Internal Speakers | **Enabled** |
-| | Video Memory Size | **512MB** |
+| | Increase Idle Fan Speed (%) | **0** |
 | **Port Options** | All Ports | **Enabled** |
-| **Optional ROM Policy** | Legacy Support | **All Legacy** |
-| **Power Management** | All Options | **Enabled** |
+| | Restrict USB Devices | **Allow all USB Devices** |
+| **Option ROM Launch Policy** | Configure Option ROM Launch Policy | **All UEFI** |
+| **Power Management Options** | Runtime Power Management | **Enabled** |
+| | Extended Idle Power States | **Enabled** |
+| | S5 Maximum Power Savings | **Disabled** |
+| | SATA Power Management | **Enabled** |
+| | PCI Express Power Management | **Disabled** |
+| | Power On from Keyboard Ports | **Disabled** |
 | | Unique Sleep State Blink Rates | **Disabled** |
-| **Remote Management** | All Options | **Disabled** |
+| **Remote Management Options** | All Settings | **Default Configuration** |
 
 ## ✅ What's Working
 - **All major components**:

@@ -1080,7 +1080,7 @@
 			<key>DisableLinkeditJettison</key>
 			<true/>
 			<key>DisableRtcChecksum</key>
-			<false/>
+			<true/>
 			<key>ExtendBTFeatureFlags</key>
 			<false/>
 			<key>ExternalDiskIcons</key>
@@ -1567,7 +1567,7 @@
 				<key>SystemAudioVolume</key>
 				<data>QA==</data>
 				<key>boot-args</key>
-				<string>-v alcid=88 -igfxidle -igfxnohdmi -igfxrpsc=0 -igfxmpc=0 gfxrst=1</string>
+				<string>alcid=88 -igfxidle -igfxnohdmi -igfxrpsc=0 -igfxmpc=0 gfxrst=1 rtcfx_exclude=34-37,58-59,5A-5B,80-FF</string>
 				<key>csr-active-config</key>
 				<data>AAAAAA==</data>
 				<key>prev-lang:kbd</key>
@@ -1638,11 +1638,11 @@
 			<key>MaxBIOSVersion</key>
 			<false/>
 			<key>MLB</key>
-			<string>C025314044NGPF7A8</string>
+			<string>C02641101GUGPF7JC</string>
 			<key>ProcessorType</key>
 			<integer>0</integer>
 			<key>ROM</key>
-			<data>kIQNzgYz</data>
+			<data>xLMB3fCy</data>
 			<key>SpoofVendor</key>
 			<true/>
 			<key>SystemMemoryStatus</key>
@@ -1650,9 +1650,9 @@
 			<key>SystemProductName</key>
 			<string>iMac17,1</string>
 			<key>SystemSerialNumber</key>
-			<string>C02Q505GGG7L</string>
+			<string>C02SJ0XZGG7L</string>
 			<key>SystemUUID</key>
-			<string>BCF5D9EF-C317-40BC-9305-DAEBFA63DBFA</string>
+			<string>F0C18626-C91F-4C1D-BCCB-9C77C5823A84</string>
 		</dict>
 		<key>UpdateDataHub</key>
 		<true/>
