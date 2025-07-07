@@ -2,7 +2,7 @@
 
 **Current Status**: macOS Monterey 12.x with full hardware support  
 **Last Updated**: June 2025  
-**OpenCore**: 1.0.4  
+**OpenCore**: 1.0.5 
 **SMBIOS**: iMac17,1
 
 ## 📋 Hardware Specifications
