@@ -1798,18 +1798,6 @@
 				<key>Path</key>
 				<string>OpenRuntime.efi</string>
 			</dict>
-			<dict>
-				<key>Arguments</key>
-				<string></string>
-				<key>Comment</key>
-				<string>VirtualSmc.efi</string>
-				<key>Enabled</key>
-				<true/>
-				<key>LoadEarly</key>
-				<false/>
-				<key>Path</key>
-				<string>VirtualSmc.efi</string>
-			</dict>
 		</array>
 		<key>Input</key>
 		<dict>
